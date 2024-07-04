@@ -199,13 +199,13 @@ declare namespace Demo {
     type Icon = {
         icon?: {
             paths?: string[];
-            attrs?: [{}];
+            attrs?: [object];
             isMulticolor?: boolean;
             isMulticolor2?: boolean;
             grid?: number;
             tags?: string[];
         };
-        attrs?: [{}];
+        attrs?: [object];
         properties?: {
             order?: number;
             id: number;

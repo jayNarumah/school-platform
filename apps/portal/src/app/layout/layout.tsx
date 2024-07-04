@@ -13,7 +13,7 @@ import { LayoutContext } from './context/layoutcontext';
 import { PrimeReactContext } from 'primereact/api';
 
 import { usePathname, useSearchParams } from 'next/navigation';
-import { AppTopbarRef, ChildContainerProps, LayoutState } from '../types';
+import { ChildContainerProps, AppTopbarRef, LayoutState } from '../types';
 
 const Layout = ({ children }: ChildContainerProps) => {
     const { layoutConfig, layoutState, setLayoutState } = useContext(LayoutContext);
