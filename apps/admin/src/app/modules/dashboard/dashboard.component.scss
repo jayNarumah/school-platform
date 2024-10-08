@@ -1,0 +1,21 @@
+.overlay {
+    position: fixed;
+    // top: 0;
+    // left: 0;
+    z-index: 9999;
+    /* Choose an appropriate value for z-index based on your specific use case */
+}
+
+.dark-card {
+    background-color: #183B59;
+
+    .content {
+        color: rgb(243, 237, 237);
+
+        .icon-section {
+            background-color: #577997;
+            color: fff;
+        }
+    }
+
+}
