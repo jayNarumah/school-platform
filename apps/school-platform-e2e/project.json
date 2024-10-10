@@ -1,9 +1,0 @@
-{
-  "name": "school-platform-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/school-platform-e2e/src",
-  "tags": [],
-  "implicitDependencies": ["school-platform"],
-  "// targets": "to see all targets run: nx show project school-platform-e2e --web",
-  "targets": {}
-}
